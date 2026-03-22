@@ -38,6 +38,8 @@ A modern, responsive, and visually stunning developer portfolio built with Vite,
 - **TailwindCSS 3** - Utility-first CSS framework
 - **Framer Motion** - Animation library
 - **React Icons** - Icon library
+- **Web3Forms** - Contact form backend service
+- **Vercel Analytics** - Web analytics
 - **JavaScript ES6+**
 
 ## Project Structure
@@ -52,6 +54,7 @@ src/
 │   │   ├── ProjectsSection.jsx
 │   │   ├── EducationSection.jsx
 │   │   ├── CertificationsSection.jsx
+│   │   ├── DeploymentsSection.jsx
 │   │   ├── ContactSection.jsx
 │   │   └── index.js
 │   ├── Navbar.jsx
@@ -80,7 +83,7 @@ src/
 
 1. Clone the repository
 ```bash
-git clone <repository-url>
+git clone <https://github.com/deepan1413/portfolio_.git>
 cd portfolio
 ```
 
@@ -91,7 +94,7 @@ npm install
 
 3. Start the development server
 ```bash
-npm run dev
+npm run dev -- --host
 ```
 
 4. Open [http://localhost:5173](http://localhost:5173) in your browser
@@ -208,9 +211,17 @@ The portfolio is fully responsive with breakpoints:
 - Certificate display
 - Issuer information
 - Animated checkmarks
+Deployments Section
+- Active deployments and live links
+- Google Play Console Account
+- Client project deployments
+- Personal portfolio deployment
 
 ### Contact Section
 - Contact methods with icons
+- Email, phone, GitHub, LinkedIn, Instagram
+- Web3Forms integrated contact form
+- Real-time form submission with feedback
 - Email, phone, GitHub, LinkedIn
 - Interactive contact cards
 
@@ -231,10 +242,7 @@ The portfolio is fully responsive with breakpoints:
 
 The portfolio includes:
 - Semantic HTML structure
-- Meta tags in index.html
-- Optimized page titles
-- Descriptive headings
-
+- Meta
 ## Future Enhancements
 
 - [ ] Blog section

@@ -6,6 +6,7 @@ export const portfolio = {
   tagline: 'Building AI-powered applications, interactive web experiences, and mobile solutions.',
   location: 'Chennai, Tamil Nadu',
   about: "I'm a Computer Science student passionate about building AI-driven tools, interactive web applications, and mobile experiences. I enjoy combining technology with creative design to build products that solve real-world problems.",
+  resume: '/resume.pdf',
   
   contact: {
     phone: '+91 95855 82166',

@@ -9,6 +9,7 @@ import { CertificationsSection } from './components/sections/CertificationsSecti
 import { DeploymentsSection } from './components/sections/DeploymentsSection';
 import { ContactSection } from './components/sections/ContactSection';
 import { portfolio } from './data/portfolio';
+import { Analytics } from '@vercel/analytics/react';
 import './App.css';
 import { useEffect } from 'react';
 
@@ -48,6 +49,7 @@ function App() {
       </main>
       
       <Footer contact={portfolio.contact} />
+      <Analytics />
     </div>
   );
 }
