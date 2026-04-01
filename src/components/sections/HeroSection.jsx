@@ -75,7 +75,7 @@ export const HeroSection = ({ name, role, tagline, contact }) => {
             variants={greetingVariants}
             className="mb-8"
           >
-            <p className="text-xl text-gray-400 font-medium mt-2">Hallo, I'm</p>
+            <p className="text-xl text-gray-400 font-medium mt-2">Hallo, ich bin </p>
           </motion.div>
 
           {/* Name */}
