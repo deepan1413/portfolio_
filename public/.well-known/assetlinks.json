@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.matrimony_user",
+      "sha256_cert_fingerprints": [
+        "1C:3E:89:CB:8D:B3:80:D7:4A:19:79:1A:0A:88:86:88:43:41:17:11:F4:61:3F:7E:09:56:52:D2:78:DF:8F:3A",
+        "3A:83:DC:41:58:EB:64:BE:B1:32:DF:23:B1:80:6E:90:9B:97:F6:C0:38:EC:89:15:47:C8:B9:57:08:CD:7D:06"
+      ]
+    }
+  }
+]
