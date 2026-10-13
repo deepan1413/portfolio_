@@ -48,6 +48,23 @@ export const portfolio = {
       'Google Maps API',
     ],
   },
+   {
+  id: 4,
+  company: 'Lucky Automation',
+  role: 'Automation Intern',
+  type: 'Seasonal Internship',
+  location: '',
+  period: 'Jun 2024 & Jun 2025',
+  summary:
+    'Worked on industrial automation systems during two semester holidays, replacing HMIs, drivers, and PLCs and restoring existing programs on the new hardware.',
+  bullets: [
+    'Replaced faulty HMI units and reinstalled the existing HMI projects on the new hardware.',
+    'Replaced and configured drive units on automated machinery.',
+    'Replaced PLCs and reloaded the existing PLC programs so machines returned to their original operation.',
+    'Returned to the same team for a second internship the following summer.',
+  ],
+  tech: ['PLC', 'HMI', 'Drives', 'Industrial Automation'],
+},
   {
     id: 2,
     company: 'PM Square Soft Services Pvt. Ltd.',
@@ -96,23 +113,7 @@ export const portfolio = {
       'CCTV',
     ],
   },
-  {
-  id: 4,
-  company: 'Lucky Automation',
-  role: 'Automation Intern',
-  type: 'Seasonal Internship',
-  location: '',
-  period: 'Jun 2024 & Jun 2025',
-  summary:
-    'Worked on industrial automation systems during two semester holidays, replacing HMIs, drivers, and PLCs and restoring existing programs on the new hardware.',
-  bullets: [
-    'Replaced faulty HMI units and reinstalled the existing HMI projects on the new hardware.',
-    'Replaced and configured drive units on automated machinery.',
-    'Replaced PLCs and reloaded the existing PLC programs so machines returned to their original operation.',
-    'Returned to the same team for a second internship the following summer.',
-  ],
-  tech: ['PLC', 'HMI', 'Drives', 'Industrial Automation'],
-},
+ 
 ],
 
   skills: {
